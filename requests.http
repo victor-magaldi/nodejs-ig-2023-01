@@ -1,0 +1,12 @@
+### List All Mesages
+GET http://localhost:3333/users
+Content-Type: application/json
+
+### Create a new message
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name":"Victor Magaldi",
+  "email":"victor.teste@gmail.com"
+}
