@@ -1,8 +1,8 @@
-### List All Mesages
+### List All Users
 GET http://localhost:3333/users
 Content-Type: application/json
 
-### Create a new message
+### Create a new User
 POST http://localhost:3333/users
 Content-Type: application/json
 
@@ -11,5 +11,14 @@ Content-Type: application/json
   "email":"victor.teste@gmail.com"
 }
 
-### Delete message 
-DELETE http://localhost:3333/users/a3e3d756-a97f-4e49-b987-da247b508746
+### Delete User 
+DELETE http://localhost:3333/users/7a40cb11-424d-48ca-8984-3e747bd112af
+
+### Update User
+PUT http://localhost:3333/users/a3e3d756-a97f-4e49-b987-da247b508746
+Content-Type: application/json
+
+{
+  "name":"Victor Magaldi 2212",
+  "email":"victor.teste@gmail.com"
+}
