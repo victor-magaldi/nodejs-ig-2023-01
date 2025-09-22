@@ -2,6 +2,12 @@
 GET http://localhost:3333/users
 Content-Type: application/json
 
+
+### Search 
+GET http://localhost:3333/users?search=teste&page=2
+Content-Type: application/json
+
+
 ### Create a new User
 POST http://localhost:3333/users
 Content-Type: application/json
@@ -10,6 +16,7 @@ Content-Type: application/json
   "name":"Victor Magaldi 2204",
   "email":"victor.teste@gmail.com"
 }
+
 
 ### Delete User 
 DELETE http://localhost:3333/users/7a40cb11-424d-48ca-8984-3e747bd112af
