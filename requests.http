@@ -4,7 +4,7 @@ Content-Type: application/json
 
 
 ### Search 
-GET http://localhost:3333/users?search=teste&page=2
+GET http://localhost:3333/users?search=joao
 Content-Type: application/json
 
 
